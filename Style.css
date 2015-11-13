@@ -1,0 +1,91 @@
+.lw { font-size: 60px; }
+
+#menu li { 
+  display : inline;
+  padding : 0 0.5em;  
+}
+
+#menu a {
+  color : #dddddd;
+  text-decoration : none;
+  padding : 0 0.5em; 
+}
+
+#menu {
+  list-style-type : none;
+  background-color : #3366ff;
+}
+
+#main {
+  max-with:960px;
+  margin:auto;
+  clear: both;
+} 
+
+#divSponsor {
+  float: left;
+  border: 2px solid blue;
+  margin: 2%;
+  padding: 2%;
+  
+}
+
+#divNews {
+  float: left;
+  width: 40%;
+    border: 2px solid blue;
+  margin: 2%;
+  padding: 2%;
+}
+
+#divEvenements {
+  float: right;
+  width: 40%;
+  border: 2px solid blue;
+  margin: 2%;
+  padding: 2%;
+}
+
+#connexion {
+  float: right;
+}
+
+#flux {
+  width : 600px;
+  height: 400px;
+  border: 1px solid blue;
+  float : left;
+}
+
+#listeFlux {
+  float : right;
+  border: 1px solid blue;
+  width: 200px;
+  height: 400px;
+}
+
+#commentaires {
+  clear: both;
+  border: 1px solid blue;
+  width: 802px;
+  height: 200px;
+}
+
+#video {
+  width: 804px;
+  height: 645px;
+}
+
+#vid {
+  width: 96%;
+  height: 90%;
+  margin: 10px;
+  border: 1px solid blue;
+}
+
+#choixFlux {
+  width: 85%;
+  height: 22%;
+  margin: 4px;
+  border: 1px solid blue;
+}
