@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Club A</title><link rel="stylesheet" type="text/css" href="Style.css">
+<title>Club A</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
 </head>
 <body>
 
@@ -15,7 +16,7 @@
 </div>
   
 <div id="divMenu">
-   <ul id="menu">
+  <ul id="menu">
     <li><a href="accueil.html">Accueil</a></li>
     <li><a href="news.html">News</a></li>
     <li><a href="seances.html">Calendrier</a></li>
@@ -27,6 +28,33 @@
     <li><a href="sponsor.html">Devenez Sponsor !</a></li>
   </ul>
 </div>
+
+<div id="main">
+  Choix données : 
+  <select>
+    <option>Scores</option>
+    <option>Classement</option>
+  </select> 
+  <br/>
+    Choix tri : 
+  <select>
+    <option>Dernières données</option>
+    <option>Ordre croissant</option>
+    <option>Ordre decroissant</option>
+  </select> 
+    <br/>
+    Date début <INPUT type="text" name="nom" value="" size="5">
+    <br/>
+    Date fin <INPUT type="text" name="nom" value="" size="5">
+    <br/>
+    Comparer avec <INPUT type="text" name="nom" value="" size="5">
+
+  <br/>
+  <br/>
   
+   <button onclick="self.location.href='affichageScores.html'">Valider</button>
+    
+</div>
+
 </body>
 </html>
