@@ -11,7 +11,7 @@
  
 <div id="connexion">
   <a href="connexion.html">Se déconnecter</a>
-  <a href="connexion.html">Mon compte</a>
+  <a href="monCompte.html">Mon compte</a>
 </div>
   
 <div id="divMenu">
@@ -27,6 +27,30 @@
     <li><a href="sponsor.html">Devenez Sponsor !</a></li>
   </ul>
 </div>
-  
+
+<script>
+    function merci() {
+        alert("Le club A vous remercie !")
+      }
+ </script>
+<div id="content">
+		Choisir l'un de vos moyen de paiement enregistré :
+		</br>		
+		<br/>
+		<select>
+			<option>Mastercard 5684*******65 Bobby Lenul</option>
+			<option>Visa 9985*******11 Papa Lenul</option>
+			<option>Paypal Bobby Lenul</option>
+	    </select>
+		<br/>
+		<br/>
+          Montant du don :  <INPUT type="text" name="nom" value="" size="5"> €
+        <br/>
+		</br>
+		<a href="ajouterMoyenPaiement.html">Utiliser un nouveau moyen de paiement</a>
+        <br/>
+		</br>
+        <button onclick="merci()">Payer</button>
+</div>
 </body>
 </html>

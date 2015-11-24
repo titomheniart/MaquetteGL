@@ -31,35 +31,24 @@
 </div>
 
 <div id="main">
-  Choix données : 
-  <select>
-    <option>Scores</option>
-    <option>Classement</option>
-  </select> 
+  Moyen de paiement déjà enregistré : 
   <br/>
-    Choix tri : 
-  <select>
-    <option>Dernières données</option>
-    <option>Ordre croissant</option>
-    <option>Ordre decroissant</option>
-  </select> 
-    <br/>
-    Date début <INPUT type="text" name="nom" value="" size="5">
-    <br/>
-    Date fin <INPUT type="text" name="nom" value="" size="5">
-    <br/>
-    Comparer avec <INPUT type="text" name="nom" value="" size="5">
   <br/>
-    Choix méthode d'affichage : 
   <select>
-    <option>Tableau</option>
-    <option>Diagramme à barre</option>
-    <option>Diagramme en ligne</option>
-  </select> 
-  <br/>
+    <option>Mastercard 5684*******65 Bobby Lenul</option>
+    <option>Visa 9985*******11 Papa Lenul</option>
+    <option>Paypal Bobby Lenul</option>
+  </select>
   <br/>
   
-   <button onclick="self.location.href='affichageScores.html'">Valider</button>
+  <br/>
+
+  <script>
+    function deleteMP() {
+        confirm("êtes vous sur de vouloir supprimer le moyent de paiement \n Mastercard 5684*******65 Bobby Lenul ?")
+      }
+  </script>
+  <button onclick="self.location.href='ajouterMoyenPaiement.html'">Ajout</button> <button onclick="self.location.href='ajouterMoyenPaiementModif.html'">Modification</button> <button onclick="deleteMP()">Suppression</button>
     
 </div>
 

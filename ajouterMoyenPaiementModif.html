@@ -31,35 +31,36 @@
 </div>
 
 <div id="main">
-  Choix données : 
+  Type du moyen de paiement : 
+  <br/>
+  <img src="images/VPM_modif.jpg" width="300" height="62">
+  <br/>
+  <br/>
+    Titulaire du compte :  <INPUT type="text" name="nom" value="Bobby Lenul" size="11">
+  <br/>
+  <br/>
+    N° de carte  <INPUT type="text" name="numCarte" value="5684*******65" size="20">
+  <br/>
+  <br/>
+    Expire fin  : 
   <select>
-    <option>Scores</option>
-    <option>Classement</option>
+    <option>01-Janvier</option>
+    <option selected>02-Février</option>
+    <option>03-Mars</option>
+    <option>...</option>
   </select> 
-  <br/>
-    Choix tri : 
-  <select>
-    <option>Dernières données</option>
-    <option>Ordre croissant</option>
-    <option>Ordre decroissant</option>
-  </select> 
+    / <select>
+      <option>2018</option>
+      <option>2017</option>
+      <option>2016</option>
+      <option selected>2015</option>
+      <option>...</option>
+    </select> 
     <br/>
-    Date début <INPUT type="text" name="nom" value="" size="5">
     <br/>
-    Date fin <INPUT type="text" name="nom" value="" size="5">
+    <input type="checkbox" name="checkbox" checked> <FONT color="grey">se souvenir</FONT><br>
     <br/>
-    Comparer avec <INPUT type="text" name="nom" value="" size="5">
-  <br/>
-    Choix méthode d'affichage : 
-  <select>
-    <option>Tableau</option>
-    <option>Diagramme à barre</option>
-    <option>Diagramme en ligne</option>
-  </select> 
-  <br/>
-  <br/>
-  
-   <button onclick="self.location.href='affichageScores.html'">Valider</button>
+   <button>Valider</button>
     
 </div>
 
