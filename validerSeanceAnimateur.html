@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <html>
 <head>
 <title>Club A</title>
@@ -28,31 +27,52 @@
     <li><a href="streaming.html">Streaming</a></li>
     <li><a href="archive.html">Archives</a></li>
     <li><a href="bai.html">Boite à idées</a></li>
-  	<li><a href="scores.html">Scores/Classements</a></li>
+	<li><a href="scores.html">Scores/Classements</a></li>
     <li><a href="dons.html">Dons</a></li>
     <li><a href="sponsor.html">Devenez Sponsor !</a></li>
   </ul>
 </div>
 
 <div id="main">
-  Moyen de paiement déjà enregistré : 
+
+  <h1>
+    Une séance a été proposée le 02/12/15.
+   </h1> 
+
+   <button onclick="self.location.href='accueil.html'">Ne pas valider la séance</button>
+
   <br/>
   <br/>
+  <br/>
+    Choisir deux animateurs
   <select>
-    <option>Mastercard 5684*******65 Bobby Lenul</option>
-    <option>Visa 9985*******11 Papa Lenul</option>
-    <option>Paypal Bobby Lenul</option>
+    <option>Jessie</option>
+    <option>James</option>
+    <option>Clovis</option>
+    <option>Igor</option>
+  </select>
+  <select>
+    <option>Clovis</option>
+    <option>Jessie</option>
+    <option>James</option>
+    <option>Igor</option>
+  </select>  
+    <br/>
+    Nombre de participants <INPUT type="text" name="nom" value="" size="2"> à <INPUT type="text" name="nom" value="" size="2">
+     <br/>
+    Choisir une salle
+  <select>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
   </select>
   <br/>
-  
+    Pathologies compatibles <INPUT type="text" name="nom" value="" size="30">
   <br/>
-
-  <script>
-    function deleteMP() {
-        confirm("êtes vous sur de vouloir supprimer le moyent de paiement \n Mastercard 5684*******65 Bobby Lenul ?")
-      }
-  </script>
-  <button onclick="self.location.href='ajouterMoyenPaiement.html'">Ajout</button> <button onclick="self.location.href='ajouterMoyenPaiementModif.html'">Modification</button> <button onclick="deleteMP()">Suppression</button>
+  <br/>
+  
+   <button onclick="self.location.href='accueil.html'">Valider la séance</button>
     
 </div>
 
